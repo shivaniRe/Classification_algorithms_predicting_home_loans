@@ -10,7 +10,7 @@ To choose a model, it is important to decide if recall-score is important or pre
 Below is the summary of my results.
 
 | Model              |  Recall  |   Precision  |  f1_score  |   CV_score  |
-|:——————————————————:|:————————:|:————————————:|:——————————:|:———————————:|
+|:------------------:|:--------:|:------------:|:----------:|:-----------:|
 |Logistic Regression |   0.54   |     0.49     |    0.39    |    0.53     |
 |KNN		               |	 0.50	   |     0.50     |    0.50    |    0.50     |
 |Gausian Naive Bayes |	 0.50	   |     0.52     |    0.48    |    0.49     |
