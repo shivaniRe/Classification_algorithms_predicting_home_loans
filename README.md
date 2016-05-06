@@ -9,16 +9,16 @@ To choose a model, it is important to decide if recall-score is important or pre
 
 Below is the summary of my results.
 
-[{| Model              |  Recall  |   Precision  |  f1_score  |   CV_score  }]
- ———————————————————————————————————————————————————————————————————
-[|Logistic Regression |   0.54   |     0.49     |    0.39    |    0.53   ]
-[|KNN		             |	 0.50	  |     0.50     |    0.50    |    0.50   ]
-[|Gausian Naive Bayes |	 0.50	  |     0.52     |    0.48    |    0.49  ]
-[|MultinomialNB	     |   0.53   |     0.50     |    0.42    |    0.53  ]
-[|BernoulliNB	       |   0.53   |     0.51     |    0.47    |    0.52  ]
-[|SVM     	           |   0.53   |     0.50     |    0.44    |    0.53  ]
-[|Decision Tree	     |   0.51   |     0.51     |    0.51    |    0.50  ]
-[|Random Forest       |   0.50   |     0.51     |    0.50    |    0.50  ]
+| Model              |  Recall  |   Precision  |  f1_score  |   CV_score  |
+|:——————————————————:|:————————:|:————————————:|:——————————:|:———————————:|
+|Logistic Regression |   0.54   |     0.49     |    0.39    |    0.53     |
+|KNN		               |	 0.50	   |     0.50     |    0.50    |    0.50     |
+|Gausian Naive Bayes |	 0.50	   |     0.52     |    0.48    |    0.49     |
+|MultinomialNB	      |   0.53   |     0.50     |    0.42    |    0.53     |
+|BernoulliNB	        |   0.53   |     0.51     |    0.47    |    0.52     |
+|SVM     	           |   0.53   |     0.50     |    0.44    |    0.53     |
+|Decision Tree	      |   0.51   |     0.51     |    0.51    |    0.50     |
+|Random Forest       |   0.50   |     0.51     |    0.50    |    0.50     |
 
 Based on the above results, I chose logistic regression because it has high recall and cross-validation scores. And also Logistic regression is a simpler model. 
 
